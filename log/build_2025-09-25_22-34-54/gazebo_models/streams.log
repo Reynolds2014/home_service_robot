@@ -1,0 +1,58 @@
+[0.098s] Invoking command in '/home/reynolds/Datos/codes/source/robots/home_service_robot/build/gazebo_models': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/reynolds/Datos/codes/source/robots/home_service_robot/gazebo_models -DCMAKE_INSTALL_PREFIX=/home/reynolds/Datos/codes/source/robots/home_service_robot/install/gazebo_models
+[0.896s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.896s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.896s]   CMake.
+[0.896s] 
+[0.896s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.897s]   CMake that the project does not need compatibility with older versions.
+[0.897s] 
+[0.897s] [0m
+[2.589s] -- The C compiler identification is GNU 13.3.0
+[3.361s] -- The CXX compiler identification is GNU 13.3.0
+[3.495s] -- Detecting C compiler ABI info
+[3.867s] -- Detecting C compiler ABI info - done
+[3.883s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.884s] -- Detecting C compile features
+[3.885s] -- Detecting C compile features - done
+[3.901s] -- Detecting CXX compiler ABI info
+[4.086s] -- Detecting CXX compiler ABI info - done
+[4.101s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.101s] -- Detecting CXX compile features
+[4.102s] -- Detecting CXX compile features - done
+[4.103s] [33mCMake Warning (dev) at CMakeLists.txt:13 (exec_program):
+[4.103s]   Policy CMP0153 is not set: The exec_program command should not be called.
+[4.104s]   Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy
+[4.104s]   command to set the policy and suppress this warning.
+[4.104s] 
+[4.104s]   Use execute_process() instead.
+[4.105s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.105s] [0m
+[4.492s] -- Install path: /home/reynolds/Datos/codes/source/robots/home_service_robot/install/gazebo_models/models
+[4.515s] -- Configuring done (3.6s)
+[4.790s] -- Generating done (0.3s)
+[4.899s] -- Build files have been written to: /home/reynolds/Datos/codes/source/robots/home_service_robot/build/gazebo_models
+[4.911s] Invoked command in '/home/reynolds/Datos/codes/source/robots/home_service_robot/build/gazebo_models' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/reynolds/Datos/codes/source/robots/home_service_robot/gazebo_models -DCMAKE_INSTALL_PREFIX=/home/reynolds/Datos/codes/source/robots/home_service_robot/install/gazebo_models
+[4.913s] Invoking command in '/home/reynolds/Datos/codes/source/robots/home_service_robot/build/gazebo_models': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/reynolds/Datos/codes/source/robots/home_service_robot/build/gazebo_models -- -j4 -l4
+[5.081s] tar: tar: tar: Eliminando la `../' inicial de los nombresEliminando la `../' inicial de los nombresEliminando la `../' inicial de los nombres
+[5.081s] 
+[5.081s] 
+[5.082s] tar: tar: tar: ../apollo15_landing_site_1000x1000: No se puede efectuar stat../apartment: No se puede efectuar stat../ambulance: No se puede efectuar stattar: : No existe el archivo o el directorio
+[5.082s] : No existe el archivo o el directorio
+[5.082s] : No existe el archivo o el directorio
+[5.082s] Eliminando la `../' inicial de los nombres
+[5.082s] tar: ../arm_part: No se puede efectuar stat: No existe el archivo o el directorio
+[5.115s] tar: Se sale con estado de fallo debido a errores anteriores
+[5.116s] tar: Se sale con estado de fallo debido a errores anteriores
+[5.116s] tar: Se sale con estado de fallo debido a errores anteriores
+[5.116s] tar: Se sale con estado de fallo debido a errores anteriores
+[5.146s] gmake[2]: *** [CMakeFiles/apollo15_landing_site_1000x1000.dir/build.make:71: CMakeFiles/apollo15_landing_site_1000x1000] Error 2
+[5.146s] gmake[2]: *** [CMakeFiles/arm_part.dir/build.make:71: CMakeFiles/arm_part] Error 2
+[5.146s] gmake[2]: *** [CMakeFiles/apartment.dir/build.make:71: CMakeFiles/apartment] Error 2
+[5.146s] gmake[2]: *** [CMakeFiles/ambulance.dir/build.make:71: CMakeFiles/ambulance] Error 2
+[5.146s] gmake[1]: *** [CMakeFiles/Makefile2:671: CMakeFiles/arm_part.dir/all] Error 2
+[5.147s] gmake[1]: *** Se espera a que terminen otras tareas....
+[5.147s] gmake[1]: *** [CMakeFiles/Makefile2:619: CMakeFiles/apartment.dir/all] Error 2
+[5.147s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/ambulance.dir/all] Error 2
+[5.147s] gmake[1]: *** [CMakeFiles/Makefile2:645: CMakeFiles/apollo15_landing_site_1000x1000.dir/all] Error 2
+[5.148s] gmake: *** [Makefile:156: all] Error 2
+[5.153s] Invoked command in '/home/reynolds/Datos/codes/source/robots/home_service_robot/build/gazebo_models' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/reynolds/Datos/codes/source/robots/home_service_robot/build/gazebo_models -- -j4 -l4

@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <world name="default">
+    <include>
+      <uri>file:///home/reynolds/Datos/codes/source/robots/home_service_robot/gazebo_models/apartment</uri>
+    </include>
+  </world>
+</sdf>

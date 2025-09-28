@@ -1,0 +1,4 @@
+Notas:
+
+Escenario:
+gz sim /home/reynolds/Datos/codes/source/robots/home_service_robot/worlds/apartment_test.world

@@ -1,0 +1,2 @@
+Invoking command in '/home/reynolds/Datos/codes/source/robots/home_service_robot/build/gazebo_models': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/reynolds/Datos/codes/source/robots/home_service_robot/build/gazebo_models -- -j4 -l4
+Invoked command in '/home/reynolds/Datos/codes/source/robots/home_service_robot/build/gazebo_models' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/reynolds/Datos/codes/source/robots/home_service_robot/build/gazebo_models -- -j4 -l4

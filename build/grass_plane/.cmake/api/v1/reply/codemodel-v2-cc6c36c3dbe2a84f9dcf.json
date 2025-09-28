@@ -1,0 +1,76 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7c6f1148b5ab8453b995.json",
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "materials",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-materials-6eee5a6cb2eb2242e38e.json",
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "materials"
+				},
+				{
+					"build" : "materials/scripts",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-materials.scripts-0c6dfcccdee13e533e1a.json",
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "materials/scripts"
+				},
+				{
+					"build" : "materials/textures",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-materials.textures-97b29b16de2ca1d70add.json",
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "materials/textures"
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "Project"
+				}
+			],
+			"targets" : []
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/reynolds/Datos/codes/source/robots/home_service_robot/build/grass_plane",
+		"source" : "/home/reynolds/Datos/codes/source/robots/home_service_robot/gazebo_models_worlds_collection/models/grass_plane"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

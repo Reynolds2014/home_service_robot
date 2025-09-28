@@ -1,0 +1,45 @@
+[0.128s] Invoking command in '/home/reynolds/Datos/codes/source/robots/home_service_robot/build/grass_plane': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/reynolds/Datos/codes/source/robots/home_service_robot/gazebo_models_worlds_collection/models/grass_plane -DCMAKE_INSTALL_PREFIX=/home/reynolds/Datos/codes/source/robots/home_service_robot/install/grass_plane
+[0.902s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.902s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.902s]   contain a literal, direct call to the project() command.  Add a line of
+[0.903s]   code such as
+[0.903s] 
+[0.903s]     project(ProjectName)
+[0.903s] 
+[0.903s]   near the top of the file, but after cmake_minimum_required().
+[0.903s] 
+[0.904s]   CMake is pretending there is a "project(Project)" command on the first
+[0.904s]   line.
+[0.904s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.904s] [0m
+[0.904s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.904s]   cmake_minimum_required() should be called prior to this top-level project()
+[0.905s]   call.  Please see the cmake-commands(7) manual for usage documentation of
+[0.905s]   both commands.
+[0.905s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.905s] [0m
+[2.675s] -- The C compiler identification is GNU 13.3.0
+[3.466s] -- The CXX compiler identification is GNU 13.3.0
+[3.576s] -- Detecting C compiler ABI info
+[3.986s] -- Detecting C compiler ABI info - done
+[4.014s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.015s] -- Detecting C compile features
+[4.016s] -- Detecting C compile features - done
+[4.068s] -- Detecting CXX compiler ABI info
+[4.412s] -- Detecting CXX compiler ABI info - done
+[4.493s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.493s] -- Detecting CXX compile features
+[4.496s] -- Detecting CXX compile features - done
+[4.507s] [33mCMake Warning (dev) in CMakeLists.txt:
+[4.508s]   No cmake_minimum_required command is present.  A line of code such as
+[4.508s] 
+[4.509s]     cmake_minimum_required(VERSION 3.28)
+[4.510s] 
+[4.510s]   should be added at the top of the file.  The version specified may be lower
+[4.510s]   if you wish to support older CMake versions for this project.  For more
+[4.512s]   information run "cmake --help-policy CMP0000".
+[4.512s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.512s] [0m
+[4.515s] -- Configuring done (3.6s)
+[4.522s] -- Generating done (0.0s)
+[4.529s] -- Build files have been written to: /home/reynolds/Datos/codes/source/robots/home_service_robot/build/grass_plane

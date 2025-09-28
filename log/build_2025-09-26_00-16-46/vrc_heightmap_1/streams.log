@@ -1,0 +1,45 @@
+[0.125s] Invoking command in '/home/reynolds/Datos/codes/source/robots/home_service_robot/build/vrc_heightmap_1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/reynolds/Datos/codes/source/robots/home_service_robot/gazebo_models_worlds_collection/models/vrc_heightmap_1 -DCMAKE_INSTALL_PREFIX=/home/reynolds/Datos/codes/source/robots/home_service_robot/install/vrc_heightmap_1
+[0.889s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.890s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.890s]   contain a literal, direct call to the project() command.  Add a line of
+[0.890s]   code such as
+[0.890s] 
+[0.890s]     project(ProjectName)
+[0.891s] 
+[0.891s]   near the top of the file, but after cmake_minimum_required().
+[0.891s] 
+[0.891s]   CMake is pretending there is a "project(Project)" command on the first
+[0.891s]   line.
+[0.891s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.892s] [0m
+[0.892s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.892s]   cmake_minimum_required() should be called prior to this top-level project()
+[0.892s]   call.  Please see the cmake-commands(7) manual for usage documentation of
+[0.892s]   both commands.
+[0.892s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.893s] [0m
+[2.669s] -- The C compiler identification is GNU 13.3.0
+[3.450s] -- The CXX compiler identification is GNU 13.3.0
+[3.566s] -- Detecting C compiler ABI info
+[3.981s] -- Detecting C compiler ABI info - done
+[4.007s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.008s] -- Detecting C compile features
+[4.009s] -- Detecting C compile features - done
+[4.061s] -- Detecting CXX compiler ABI info
+[4.406s] -- Detecting CXX compiler ABI info - done
+[4.480s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.482s] -- Detecting CXX compile features
+[4.482s] -- Detecting CXX compile features - done
+[4.488s] [33mCMake Warning (dev) in CMakeLists.txt:
+[4.488s]   No cmake_minimum_required command is present.  A line of code such as
+[4.489s] 
+[4.489s]     cmake_minimum_required(VERSION 3.28)
+[4.489s] 
+[4.489s]   should be added at the top of the file.  The version specified may be lower
+[4.489s]   if you wish to support older CMake versions for this project.  For more
+[4.492s]   information run "cmake --help-policy CMP0000".
+[4.492s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.493s] [0m
+[4.494s] -- Configuring done (3.6s)
+[4.495s] -- Generating done (0.0s)
+[4.512s] -- Build files have been written to: /home/reynolds/Datos/codes/source/robots/home_service_robot/build/vrc_heightmap_1
